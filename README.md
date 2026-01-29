@@ -10,6 +10,16 @@
 
 PaperTrail is a sleek, modern blogging platform designed for publishing articles, sharing ideas, and exploring thoughtful stories on lifestyle, technology, learning, and personal growth. Built with speed and user experience in mind, it provides a seamless interface for readers and writers alike.
 
+---
+
+## Server Repository
+
+The backend server for this project is available at:
+[https://github.com/amisadman/papertrail-server](https://github.com/amisadman/papertrail-server)
+
+
+---
+
 ##  Features
 
 - **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
