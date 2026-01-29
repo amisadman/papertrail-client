@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="src/app/icon.png" alt="PaperTrail Logo" width="120" height="120" />
+  <h1>PaperTrail</h1>
+  <p><strong>A modern blogging platform for shared stories and thoughtful ideas.</strong></p>
+</div>
+
+<hr />
+
+## About PaperTrail
+
+PaperTrail is a sleek, modern blogging platform designed for publishing articles, sharing ideas, and exploring thoughtful stories on lifestyle, technology, learning, and personal growth. Built with speed and user experience in mind, it provides a seamless interface for readers and writers alike.
+
+##  Features
+
+- **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
+- **Modern UI**: Clean and minimal interface built with Tailwind CSS and Radix UI.
+- **Fast Navigation**: Leverages Next.js 15+ App Router for near-instant page transitions.
+- **Rich Typography**: Uses Inter and Playwrite NZ fonts for an elegant reading experience.
+- **Pre-built Components**: Includes specialized UI components like Accordions, Dialogs, and Navigation Menus.
+
+## Tech Stack
+
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **UI Components**: [Radix UI](https://www.radix-ui.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18.x or later
+- pnpm (recommended) or npm/yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/amisadman/papertrail-client.git
+   cd papertrail-client
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```bash
+   pnpm install
+   # or
+   npm install
+   ```
 
-## Learn More
+3. Run the development server:
+   ```bash
+   pnpm dev
+   # or
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+ Happy Coding.
+</div>
