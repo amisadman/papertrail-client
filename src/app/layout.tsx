@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { Inter, Playwrite_NZ } from "next/font/google";
+import { Caveat, Inter, Playwrite_NZ } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/navbar";
+import { ThemeProvider } from "@/providers/themeProvider";
 
 const playwrite = Playwrite_NZ({
   variable: "--font-playwrite",
   weight: "400",
+});
+const caveat = Caveat({
+  variable: "--caveat",
+  subsets: ["latin"],
 });
 
 const inter = Inter({
@@ -24,10 +29,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${playwrite.variable}  antialiased`}>
-        <Navbar></Navbar>
-        {children}
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${caveat.variable}  antialiased`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
